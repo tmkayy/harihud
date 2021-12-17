@@ -86,7 +86,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Azonix16"
+		"font"			"Azonix42"
 		"fgcolor"		"TanDark"
 	}
 	"PlayerStatusMaxHealthValue"
