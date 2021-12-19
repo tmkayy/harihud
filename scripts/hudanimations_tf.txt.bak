@@ -248,6 +248,7 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
+	Animate HealthBG 						BgColor 	"0 0 0 0" 	Linear 0.0 0.0
 }
 
 //===========================================
@@ -427,10 +428,10 @@ event HudTournamentSetupPanelClose
 
 event HudMedicCharged
 {
-	Animate	ChargeLabel 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	ChargeLabel 	FgColor		"197 12 84 255"		Linear 0.0 0.1
 	Animate	ChargeLabel 	FgColor		"TanDarker"		Linear 0.3 0.4
 	
-	Animate	ChargeMeter 	FgColor		"TanLight"		Linear 0.0 0.1
+	Animate	ChargeMeter 	FgColor		"197 12 84 255"		Linear 0.0 0.1
 	Animate	ChargeMeter 	FgColor		"TanDarker"		Linear 0.3 0.4
 
 	RunEvent HudMedicChargedLoop	0.6
