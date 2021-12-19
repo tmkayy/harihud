@@ -75,7 +75,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"AmmoInReserve"
 		"font"			"Azonix24"
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"114 208 252 255"
 		"xpos"			"100"
 		"ypos"			"30"
 		"zpos"			"7"
