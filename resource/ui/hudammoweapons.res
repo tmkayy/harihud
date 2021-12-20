@@ -135,5 +135,19 @@
 		"textAlignment"	"center"		
 		"labelText"		"%Ammo%"
 		
-	}									
+	}
+	"AmmoBG"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"AmmoBG"
+		"xpos"			"28"
+		"ypos"			"34"
+		"zpos"			"-1"
+		"wide"			"120"
+		"tall"			"48"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"		"0 0 0 0"
+	}
+	
 }
