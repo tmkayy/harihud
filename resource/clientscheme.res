@@ -18,6 +18,15 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+		//custom colors
+		"blue_hari"			"114 208 252 255"
+		"purple_hari"		"35 0 52 199"
+		"red_hari"			"255 71 71 255"
+		"white_hari"		"255 255 255 255"
+		"black_hari"		"0 0 0 255"
+		"green_hari"		"5 245 93 255"
+		"yellow_hari"		"250 234 57 255"
+		
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -3029,69 +3038,7 @@ Scheme
 			}
 		}
 		
-		LGCRegular12
-		{
-			"1"
-			{
-				"name"		"Louis George Café"
-				"tall"		"12"
-				"antialias" "1"
-			}
-		}
-		LGCRegular16
-		{
-			"1"
-			{
-				"name"		"Louis George Café"
-				"tall"		"16"
-				"antialias" "1"
-			}
-		}
-		LGCRegular24
-		{
-			"1"
-			{
-				"name"		"Louis George Café"
-				"tall"		"24"
-				"antialias" "1"
-			}
-		}
-		LGCRegular32
-		{
-			"1"
-			{
-				"name"		"Louis George Café"
-				"tall"		"32"
-				"antialias" "1"
-			}
-		}
-		LGCRegular36
-		{
-			"1"
-			{
-				"name"		"Louis George Café"
-				"tall"		"36"
-				"antialias" "1"
-			}
-		}
-		LGCRegular42
-		{
-			"1"
-			{
-				"name"		"Louis George Café"
-				"tall"		"42"
-				"antialias" "1"
-			}
-		}
-		LGCRegular48
-		{
-			"1"
-			{
-				"name"		"Louis George Café"
-				"tall"		"48"
-				"antialias" "1"
-			}
-		}
+		//main custom font
 		Azonix12
 		{
 			"1"
@@ -3155,6 +3102,103 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		
+		//ahud font
+		ahud12
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		ahud16
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		ahud20
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		"ahud20outline"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"20"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		ahud24
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		"ahud27outline"
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"27"
+				"additive"	"0"
+				"antialias" "1"
+				"outline"	"1"
+			}
+		}
+		ahud32
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		ahud36
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		ahud42
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		ahud48
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		
 	}
 	
 	//These are the fonts i use in my HUD
@@ -5974,38 +6018,13 @@ Scheme
 		}
 		"8"
 		{
-			"font"	"resource/fonts/Louis George Cafe.ttf"
-			"name"  "Louis George Café"
-		}
-		"8"
-		{
-			"font"	"resource/fonts/Louis George Cafe Bold Italic.ttf"
-			"name"  "Louis George Café Bold Italic"
-		}
-		"8"
-		{
-			"font"	"resource/fonts/Louis George Cafe Bold.ttf"
-			"name"  "Louis George Café Bold"
-		}
-		"8"
-		{
-			"font"	"resource/fonts/Louis George Cafe Italic.ttf"
-			"name"  "Louis George Café Italic"
-		}
-		"8"
-		{
-			"font"	"resource/fonts/Louis George Cafe Light Italic.ttf"
-			"name"  "Louis George Café Light Italic"
-		}
-		"8"
-		{
-			"font"	"resource/fonts/Louis George Cafe Light.ttf"
-			"name"  "Louis George Café Light"
-		}
-		"8"
-		{
 			"font"	"resource/fonts/Azonix.ttf"
 			"name"  "AzonixRegular"
+		}
+		"8"
+		{
+			"font"	"resource/fonts/CodeProLC.otf"
+			"name"  "Code-Pro-LC"
 		}
 	}
 }
