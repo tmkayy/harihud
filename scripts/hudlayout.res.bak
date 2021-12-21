@@ -366,7 +366,7 @@
 	{
 		"fieldName" "HudRoundTimer"
 		"xpos"	"c-20"
-		"ypos"	"440"
+		"ypos"	"100"
 		"wide"	"120"
 		"tall"  "40"
 		"visible" "1"
@@ -488,7 +488,7 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"ahud12"
+		"TextFont"		"Default"
 		
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"

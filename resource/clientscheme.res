@@ -20,6 +20,7 @@ Scheme
 	{
 		//custom colors
 		"blue_hari"			"114 208 252 255"
+		"darker_blue_hari"	"68 147 171 255"
 		"purple_hari"		"35 0 52 199"
 		"red_hari"			"255 71 71 255"
 		"white_hari"		"255 255 255 255"
