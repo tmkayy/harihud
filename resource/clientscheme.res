@@ -3040,6 +3040,15 @@ Scheme
 		}
 		
 		//main custom font
+		Azonix8
+		{
+			"1"
+			{
+				"name"		"AzonixRegular"
+				"tall"		"8"
+				"antialias" "1"
+			}
+		}
 		Azonix12
 		{
 			"1"
@@ -3105,6 +3114,15 @@ Scheme
 		}
 		
 		//ahud font
+		ahud8
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"8"
+				"antialias" "1"
+			}
+		}
 		ahud12
 		{
 			"1"
