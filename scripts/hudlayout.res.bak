@@ -251,17 +251,9 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"285"
-		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"wide"	 	"400"
+		"tall"	 	"100"
 		"priority"	"40"
-		"priority_lodef"	"5"
-
-		if_vr
-		{
-			"ypos"		"370"
-			"x_offset"	"20"
-		}
 	}
 	
 	CSpectatorTargetID
@@ -272,10 +264,8 @@
 		"xpos"		"c-126"
 		"ypos"		"250"
 		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall"	 	"100"
 		"priority"	"40"
-		"priority_lodef" "35"
 		
 		"x_offset" "20"
 		"y_offset" "20"
@@ -289,16 +279,8 @@
 		"xpos"		"c-126"
 		"ypos"		"335"
 		"wide"	 	"252"
-		"tall"	 	"35"
-		"tall_minmode"	 	"28"
+		"tall"	 	"50"
 		"priority"	"35"
-
-		if_vr
-		{
-			"ypos"		"330"
-			"x_offset"	"20"
-		}
-
 	}
 	
 	BuildingStatus_Spy
@@ -366,7 +348,7 @@
 	{
 		"fieldName" "HudRoundTimer"
 		"xpos"	"c-20"
-		"ypos"	"100"
+		"ypos"	"440"
 		"wide"	"120"
 		"tall"  "40"
 		"visible" "1"
