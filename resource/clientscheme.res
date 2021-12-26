@@ -28,7 +28,7 @@ Scheme
 		"green_hari"		"5 245 93 255"
 		"yellow_hari"		"250 234 57 255"
 		"purple_full_hari"	"35 0 52 255"
-		"black_bg_hari"		"0 0 0 255"
+		"black_bg_hari"		"0 0 0 190"
 		
 		// base colors
 		"Orange"			"178 82 22 255"

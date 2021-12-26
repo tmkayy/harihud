@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_SodaPopper.res"
+"Resource/UI/HudItemEffectMeter_Cleaver.res"
 {
 	HudItemEffectMeter
 	{
@@ -7,7 +7,7 @@
 		"enabled"		"1"
 //		"x_offset"		"40"
 		"xpos"			"367"	[$WIN32]
-		"ypos"			"300"	[$WIN32]
+		"ypos"			"285"	[$WIN32]
 		"wide"			"500"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -25,10 +25,10 @@
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/misc_ammo_area_horiz3_blue"
+		"image"			"../hud/misc_ammo_area_horiz2_blue"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz3_red"
-		"teambg_3"		"../hud/misc_ammo_area_horiz3_blue"		
+		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
+		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"				
 	}
 	
 	"ItemEffectMeterLabel"
@@ -38,14 +38,14 @@
 		"xpos"					"40"
 		"ypos"					"25"
 		"zpos"					"2"
-		"wide"					"41"
+		"wide"					"43"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_ENERGYDRINK"
+		"labelText"				"#TF_Cleaver"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
@@ -61,7 +61,7 @@
 		"ypos"					"23"
 		"zpos"					"2"
 		"wide"					"120"
-		"tall"					"4"				
+		"tall"					"4"			
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"

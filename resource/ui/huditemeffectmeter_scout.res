@@ -70,6 +70,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor_override"		"white_hari"
-		"bgcolor_override"		"0 0 0 190"
+		"bgcolor_override"		"black_bg_hari"
 	}					
 }
