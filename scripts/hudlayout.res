@@ -251,10 +251,17 @@
 		"enabled" 	"1"
 		"xpos"		"c-126"
 		"ypos"		"285"
-		"wide"	 	"400"
-		"tall"	 	"50"
+		"wide"	 	"252"
+		"tall"	 	"35"
 		"tall_minmode"	 	"28"
 		"priority"	"40"
+		"priority_lodef"	"5"
+
+		if_vr
+		{
+			"ypos"		"370"
+			"x_offset"	"20"
+		}
 	}
 	
 	CSpectatorTargetID
@@ -266,7 +273,9 @@
 		"ypos"		"250"
 		"wide"	 	"252"
 		"tall"	 	"35"
+		"tall_minmode"	 	"28"
 		"priority"	"40"
+		"priority_lodef" "35"
 		
 		"x_offset" "20"
 		"y_offset" "20"
@@ -280,8 +289,16 @@
 		"xpos"		"c-126"
 		"ypos"		"335"
 		"wide"	 	"252"
-		"tall"	 	"50"
+		"tall"	 	"35"
+		"tall_minmode"	 	"28"
 		"priority"	"35"
+
+		if_vr
+		{
+			"ypos"		"330"
+			"x_offset"	"20"
+		}
+
 	}
 	
 	BuildingStatus_Spy
