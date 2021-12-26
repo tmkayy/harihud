@@ -99,3 +99,4 @@ event HudMedicChargedStop
 	Animate	ChargeLabel 	FgColor		"255 255 255 255"		Linear 0.0 0.0001
 	Animate	ChargeMeter 	FgColor		"255 255 255 255"		Linear 0.0 0.0001
 }
+	
