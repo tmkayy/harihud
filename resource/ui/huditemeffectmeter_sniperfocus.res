@@ -1,12 +1,13 @@
-"Resource/UI/HudItemEffectMeter.res"
+"Resource/UI/HudItemEffectMeter_SodaPopper.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
+//		"x_offset"		"40"
 		"xpos"			"367"	[$WIN32]
-		"ypos"			"350"	[$WIN32]
+		"ypos"			"300"	[$WIN32]
 		"wide"			"500"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -18,33 +19,33 @@
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"ItemEffectMeterBG"
 		"xpos"			"12"
-		"ypos"			"6"
+		"ypos"			"0"
 		"zpos"			"0"
 		"wide"			"100"
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/misc_ammo_area_horiz1_blue"
+		"image"			"../hud/misc_ammo_area_horiz3_blue"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz1_red"
-		"teambg_3"		"../hud/misc_ammo_area_horiz1_blue"				
+		"teambg_2"		"../hud/misc_ammo_area_horiz3_red"
+		"teambg_3"		"../hud/misc_ammo_area_horiz3_blue"		
 	}
 	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"23"
-		"ypos"					"30"
+		"xpos"					"40"
+		"ypos"					"25"
 		"zpos"					"2"
-		"wide"					"80"
+		"wide"					"41"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
 		"enabled"				"1"
 		"tabPosition"			"0"
-		"labelText"				"#TF_Ball"
+		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
@@ -57,7 +58,7 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"28"
+		"ypos"					"23"
 		"zpos"					"2"
 		"wide"					"120"
 		"tall"					"4"				
@@ -70,5 +71,5 @@
 		"brighttext"			"0"
 		"fgcolor_override"		"white_hari"
 		"bgcolor_override"		"black_bg_hari"
-	}					
+	}				
 }
