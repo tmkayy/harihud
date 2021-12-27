@@ -3069,6 +3069,15 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		Azonix20
+		{
+			"1"
+			{
+				"name"		"AzonixRegular"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
 		Azonix24
 		{
 			"1"
