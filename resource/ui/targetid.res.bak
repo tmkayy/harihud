@@ -7,7 +7,7 @@
 		"xpos"			"0"
 		"ypos"			"23"
 		"zpos"			"-1"
-		"wide"			"640"
+		"wide"			"500"
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -94,7 +94,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"fgcolor_override"		"white_hari"
 	}
 	"TargetNameLabel2"
@@ -103,14 +103,14 @@
 		"fieldName"		"TargetNameLabel2"
 		"font"			"ahud12"
 		"xpos"			"0"
-		"ypos"			"1"
+		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"640"
 		"tall"			"12"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"fgcolor_override"		"white_hari"
 		"pin_to_sibling"	"TargetNameLabel"
 	}
@@ -127,7 +127,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetname%"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 		"fgcolor_override"		"black_hari"
 
 		"pin_to_sibling"	"TargetNameLabel"
@@ -147,7 +147,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%targetdata%"
-		"textAlignment"	"west"
+		"textAlignment"	"center"
 	}
 	"SpectatorGUIHealth"
 	{
