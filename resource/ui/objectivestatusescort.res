@@ -80,7 +80,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"HomeCPIcon"	
-		"xpos"			"59"		
+		"xpos"			"62"		
 		"ypos"			"116"
 		"zpos"			"1"
 		"wide"			"18"

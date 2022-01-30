@@ -264,7 +264,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"375"
+		"ypos"		"370"
 		"zpos"		"10"
 		"wide"	 	"220"
 		"tall"	 	"50"
