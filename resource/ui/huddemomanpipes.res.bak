@@ -22,7 +22,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ChargeLabel"
 		"xpos"					"40"
-		"ypos"					"25"
+		"ypos"					"97"
 		"zpos"					"2"
 		"wide"					"41"
 		"tall"					"15"
@@ -45,7 +45,7 @@
 		"fieldName"				"ChargeMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"23"
+		"ypos"					"94"
 		"zpos"					"2"
 		"wide"					"120"
 		"tall"					"4"				
@@ -177,7 +177,7 @@
 			"dulltext"		"1"
 			"brighttext"	"0"
 			"font"			"Azonix20"
-			"fgcolor"		"white_hari"
+			"fgcolor"		"TanLight"
 		}
 		"NumPipesLabelDropshadow"
 		{

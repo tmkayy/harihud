@@ -182,7 +182,7 @@
 	{
 		"fieldName"				"CHudAccountPanel"
 		"xpos"					"385"	[$WIN32]
-		"ypos"					"270"	[$WIN32]
+		"ypos"					"240"	[$WIN32]
 		"wide"					"116"
 		"tall"  				"180"
 		"visible" 				"1"
@@ -264,7 +264,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"320"
+		"ypos"		"375"
 		"zpos"		"10"
 		"wide"	 	"220"
 		"tall"	 	"50"
@@ -997,7 +997,7 @@
 		"xpos"			"367"	[$WIN32]
 		"ypos"			"285"	[$WIN32]
 		"wide"			"500"
-		"tall"			"50"
+		"tall"			"500"
 	}	
 
 	HudTeamGoal

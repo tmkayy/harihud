@@ -7,7 +7,7 @@
 		"enabled"		"1"
 //		"x_offset"		"40"
 		"xpos"			"367"	[$WIN32]
-		"ypos"			"300"	[$WIN32]
+		"ypos"			"338"	[$WIN32]
 		"wide"			"500"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -38,7 +38,7 @@
 		"xpos"					"40"
 		"ypos"					"25"
 		"zpos"					"2"
-		"wide"					"41"
+		"wide"					"43"
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
