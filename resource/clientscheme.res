@@ -29,6 +29,11 @@ Scheme
 		"yellow_hari"		"250 234 57 255"
 		"purple_full_hari"	"35 0 52 255"
 		"black_bg_hari"		"0 0 0 190"
+		"red_scoreboard_hari"	"255 59 59 255"
+		"blue_scoreboard_hari"	"143 189 233 255"
+		"purple_bright_hari"	"131 15 163 255"
+		"red_hypno_hari"		"238 54 54 255"
+		"blue_hypno_hari"		"85 163 238 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"
