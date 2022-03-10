@@ -34,6 +34,7 @@ Scheme
 		"purple_bright_hari"	"131 15 163 255"
 		"red_hypno_hari"		"238 54 54 255"
 		"blue_hypno_hari"		"85 163 238 255"
+		"black_bright_hari"		"27 27 27 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -3233,7 +3234,188 @@ Scheme
 				"antialias" "1"
 			}
 		}
-		
+		//icons
+		icon8
+		{
+			"1"
+			{
+				"name"		"Hypnotize Icons V3s"
+				"tall"		"8"
+				"antialias" "1"
+			}
+		}
+		icon12
+		{
+			"1"
+			{
+				"name"		"Hypnotize Icons V3s"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		icon16
+		{
+			"1"
+			{
+				"name"		"Hypnotize Icons V3s"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		icon18
+		{
+			"1"
+			{
+				"name"		"Hypnotize Icons V3s"
+				"tall"		"18"
+				"antialias" "1"
+			}
+		}
+		icon20
+		{
+			"1"
+			{
+				"name"		"Hypnotize Icons V3s"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		icon24
+		{
+			"1"
+			{
+				"name"		"Hypnotize Icons V3s"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		icon30
+		{
+			"1"
+			{
+				"name"		"Hypnotize Icons V3s"
+				"tall"		"30"
+				"antialias" "1"
+			}
+		}
+		icon32
+		{
+			"1"
+			{
+				"name"		"Hypnotize Icons V3s"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		icon36
+		{
+			"1"
+			{
+				"name"		"Hypnotize Icons V3s"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		icon42
+		{
+			"1"
+			{
+				"name"		"Hypnotize Icons V3s"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		icon48
+		{
+			"1"
+			{
+				"name"		"Hypnotize Icons V3s"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+		//classicons
+		classicon8
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"8"
+				"antialias" "1"
+			}
+		}
+		classicon12
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+		classicon16
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+		classicon20
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+		classicon24
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+		classicon32
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+		classicon36
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+		classicon42
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+		classicon48
+		{
+			"1"
+			{
+				"name"		"TF2 Class Icons V2"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
 	}
 	
 	//These are the fonts i use in my HUD
@@ -6056,10 +6238,25 @@ Scheme
 			"font"	"resource/fonts/Azonix.ttf"
 			"name"  "AzonixRegular"
 		}
-		"8"
+		"9"
 		{
 			"font"	"resource/fonts/CodeProLC.otf"
 			"name"  "Code-Pro-LC"
+		}
+		"10"
+		{
+			"font"	"resource/fonts/hypnotize_icons.ttf"
+			"name"  "Hypnotize Icons V3s"
+		}
+		"11"
+		{
+			"font"	"resource/fonts/ReadyUp_Symbols.otf"
+			"name"  "ReadyUp Symbols"
+		}
+		"12"
+		{
+			"font"	"resource/fonts/tf2_class_icons.ttf"
+			"name"  "TF2 Class Icons V2"
 		}
 	}
 }
