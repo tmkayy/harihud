@@ -63,8 +63,8 @@
 
 			if_mini
 			{
-				"xpos"		"cs-0.5-228"
-				"ypos"		"cs-0.5"
+				"xpos"		"-100"
+				"ypos"		"-100"
 				"wide"		"200"
 				"tall"		"200"
 			}
