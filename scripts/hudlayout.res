@@ -460,12 +460,12 @@
 		
 		"TextFont"		"Default"
 		
-		"TeamBlue"		"HUDBlueTeamSolid"
-		"TeamRed"		"HUDRedTeamSolid"
+		"TeamBlue"		"blue_hari"
+		"TeamRed"		"red_hari"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"0 0 0 214"		[$WIN32]
+		"BaseBackgroundColor"	"Blank"		[$WIN32]
 		"LocalBackgroundColor"	"255 255 255 189"	[$WIN32]
 	}
 

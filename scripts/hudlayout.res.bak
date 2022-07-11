@@ -264,7 +264,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"375"
+		"ypos"		"370"
 		"zpos"		"10"
 		"wide"	 	"220"
 		"tall"	 	"50"
@@ -465,7 +465,7 @@
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"0 0 0 214"		[$WIN32]
+		"BaseBackgroundColor"	"Blank"		[$WIN32]
 		"LocalBackgroundColor"	"255 255 255 189"	[$WIN32]
 	}
 
