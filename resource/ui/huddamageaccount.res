@@ -7,7 +7,7 @@
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
 		"PositiveColor"			"green_hari" //Heal
-		"NegativeColor"			"white_hari" //Damage
+		"NegativeColor"			"yellow_hari" //Damage
 		"delta_lifetime"		"2"
 		"delta_item_font"		"ahud20outline"
 		"delta_item_font_big"	"ahud27outline"
@@ -26,7 +26,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"west"
-		"fgcolor"		"white_hari"
+		"fgcolor"		"yellow_hari"
 		"font"			"ahud20"
 	}
 
