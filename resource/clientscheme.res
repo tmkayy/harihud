@@ -3140,6 +3140,15 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		ahud10
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"10"
+				"antialias" "1"
+			}
+		}
 		ahud12
 		{
 			"1"

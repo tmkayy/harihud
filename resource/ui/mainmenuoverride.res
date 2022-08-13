@@ -602,4 +602,19 @@
 		"bgcolor_override"		"black_bright_hari"
 		"PaintBackgroundType"	"2"	
 	}
+	
+	"CustomBG"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"CustomBG"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"-9999999999999999999999999"
+		"wide"										"f0"
+		"tall"										"480"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/menu/menugif"
+		"scaleimage"								"1"
+	}
 }
