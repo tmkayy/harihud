@@ -26,7 +26,7 @@
 		"enabled"		"1"
 		"labelText"		"%metal%"
 		"textAlignment"	"west"
-		"fgcolor"		"yellow_hari"
+		"fgcolor"		"white_hari"
 		"font"			"ahud20"
 	}
 
