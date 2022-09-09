@@ -46,7 +46,7 @@
 		"tabPosition"		"0"
 		"paintbackground"	"1"
 		"Alpha"				"255"
-		"bgcolor_override"	"35 0 52 255"
+		"bgcolor_override"	"black_bright_hari"
 	}
 	"BottomBar"
 	{
@@ -125,6 +125,7 @@
 		"enabled"		"1"
 		"labelText"		"map: cp_bridge"
 		"textAlignment"		"east"
+		"fgcolor_override"	"TanLight"
 	}
 	"ClassOrTeamLabel"
 	{
@@ -291,8 +292,8 @@
 		"paintborder"		"1"
 		"border"			"35 0 52 255"
 		"paintbackground"	"1"
-		"bgcolor_override"		"purple_hari"
-		"PaintBackgroundType"	"0"
+		"bgcolor_override"		"black_bright_hari"
+		"PaintBackgroundType"	"2"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
@@ -324,7 +325,7 @@
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"
-			"wide"			"150"
+			"wide"			"270"
 			"tall"			"9"
 			"autoResize"	"0"
 			"pinCorner"		"0"
