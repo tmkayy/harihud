@@ -97,7 +97,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"			"TF2Secondary46"
-		"fgcolor"		"46 43 42 200"
+		"fgcolor"		"0 0 0 255"
 	}
 	"HealthBG"
 	{

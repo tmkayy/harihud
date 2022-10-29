@@ -1,4 +1,4 @@
-"Resource/UI/HudItemEffectMeter_Scout.res"
+"Resource/UI/HudItemEffectMeter_SodaPopper.res"
 {
 	HudItemEffectMeter
 	{
@@ -7,7 +7,7 @@
 		"enabled"		"1"
 //		"x_offset"		"40"
 		"xpos"			"367"	[$WIN32]
-		"ypos"			"320"	[$WIN32]
+		"ypos"			"338"	[$WIN32]
 		"wide"			"500"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -25,10 +25,10 @@
 		"tall"			"50"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../hud/misc_ammo_area_horiz2_blue"
+		"image"			"../hud/misc_ammo_area_horiz3_blue"
 		"scaleImage"	"1"	
-		"teambg_2"		"../hud/misc_ammo_area_horiz2_red"
-		"teambg_3"		"../hud/misc_ammo_area_horiz2_blue"			
+		"teambg_2"		"../hud/misc_ammo_area_horiz3_red"
+		"teambg_3"		"../hud/misc_ammo_area_horiz3_blue"		
 	}
 	
 	"ItemEffectMeterLabel"
@@ -61,7 +61,7 @@
 		"ypos"					"43"
 		"zpos"					"2"
 		"wide"					"120"
-		"tall"					"2"			
+		"tall"					"2"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -71,5 +71,5 @@
 		"brighttext"			"0"
 		"fgcolor_override"		"white_hari"
 		"bgcolor_override"		"black_bg_hari"
-	}					
+	}				
 }

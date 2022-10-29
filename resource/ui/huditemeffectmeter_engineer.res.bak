@@ -1,12 +1,12 @@
-"Resource/UI/HudItemEffectMeter_Spy.res"
+"Resource/UI/HudItemEffectMeter_Engineer.res"
 {
 	HudItemEffectMeter
 	{
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-220"	[$WIN32]
-		"ypos"			"c71"	[$WIN32]
+		"xpos"			"r162"	[$WIN32]
+		"ypos"			"r92"	[$WIN32]
 		"wide"			"200"
 		"tall"			"200"
 		"MeterFG"		"White"
@@ -41,8 +41,8 @@
 		"tall"					"100"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"0"
-		"enabled"				"0"
+		"visible"				"1"
+		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"east"
@@ -88,7 +88,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TF2Secondary16"
-		"fgcolor"				"TanLight"
+		"font"					"Azonix16"
+		"fgcolor"				"white_hari"
 	}
 }

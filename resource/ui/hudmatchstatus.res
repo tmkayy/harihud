@@ -209,16 +209,16 @@
 		
 	"RoundCounterBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RoundCounterBG"
-		"xpos"			"397"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"60"
-		"tall"			"24"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 220"
+	  "ControlName"    "EditablePanel"
+            "fieldName"        "RoundCounterBG"
+            "xpos"            "c-22"
+            "ypos"            "-2"
+            "zpos"            "-10"
+            "wide"            "44"
+            "tall"            "20"
+            "visible"        "1"
+            "PaintBackgroundType"    "2"
+            "bgcolor_override"    "27 27 27 200"
 	}
 
 	"BGFrame"

@@ -147,7 +147,7 @@
 			"ControlName"	"CTFImagePanel"
 			"fieldName"		"PipeIcon"
 			"xpos"			"63"
-			"ypos"			"22"
+			"ypos"			"20"
 			"wide"			"14"
 			"tall"			"14"
 			"visible"		"1"
