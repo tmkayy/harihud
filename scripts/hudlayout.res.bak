@@ -14,12 +14,19 @@
 	HudWeaponAmmo
 	{
 		"fieldName" "HudWeaponAmmo"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"c100"	[$WIN32]
-		"ypos"	"c65"	[$WIN32]
-		"wide"	"250"
-		"tall"	"120"
+		"visible" "0"
+		"enabled" "0"
+		
+		"xpos"	"c105"	[$WIN32] //was "r95"
+		//"xpos_minmode"	"c105"	[$WIN32] //was "r85"
+		
+		"ypos"	"c99"	[$WIN32] //was "r55"	[$WIN32]
+		//"ypos_minmode"	"c199"	[$WIN32] //was 	"r36"//, added 30 in steps of 10 once a week
+		
+		//"xpos"	"r131"	[$X360]
+		//"ypos"	"r77"	[$X360]
+		"wide"	"120" //was 94
+		"tall"	"45"
 	}
 	
 	HudObjectiveStatus
@@ -72,10 +79,17 @@
 		"fieldName" "HudMedicCharge"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"0"	[$WIN32]
-		"ypos"	"285"	[$WIN32]
-		"wide"	"1000"
-		"tall"	"200"
+		
+		"xpos"	"c105"	[$WIN32] //was "r95"
+		//"xpos_minmode"	"c105"	[$WIN32] //was "r85"
+		
+		"ypos"	"c99"	[$WIN32] //was "r55"	[$WIN32]
+		//"ypos_minmode"	"c199"	[$WIN32] //was 	"r36"//, added 30 in steps of 10 once a week
+		
+		//"xpos"	"r131"	[$X360]
+		//"ypos"	"r77"	[$X360]
+		"wide"	"120" //was 94
+		"tall"	"45"
 	}
 	
 	HudDemomanCharge
