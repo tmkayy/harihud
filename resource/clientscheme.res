@@ -36,6 +36,9 @@ Scheme
 		"blue_hypno_hari"		"85 163 238 255"
 		"black_bright_hari"		"27 27 27 255"
 		"shadow_hari"			"46 43 42 200"
+		"sakura_blue_hari"		"178 180 225 255"
+		"sakura_red_hari"		"214 180 214 255"
+		"ahudWhite"				"242 242 242 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -3537,12 +3540,101 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
+		"TF2Secondary28"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"28"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Secondary30"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"30"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Secondary32"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"32"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Secondary34"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"34"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Secondary36"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"36"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Secondary38"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"38"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		
 		"TF2Secondary40"
 		{
 			"1"
 			{
 				"name"		"Quicksand Bold"
 				"tall"		"40"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Secondary42"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"42"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Secondary44"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" 	"1"
