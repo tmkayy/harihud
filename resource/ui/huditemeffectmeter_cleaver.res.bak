@@ -9,7 +9,7 @@
 		"xpos"			"367"	[$WIN32]
 		"ypos"			"285"	[$WIN32]
 		"wide"			"500"
-		"tall"			"90"
+		"tall"			"80"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}

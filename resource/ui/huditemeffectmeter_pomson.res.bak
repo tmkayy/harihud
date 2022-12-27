@@ -6,7 +6,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 //		"x_offset"		"40"
-		"xpos"			"c-60	[$WIN32]
+		"xpos"			"367"	[$WIN32]
 		"ypos"			"355"	[$WIN32]
 		"wide"			"500"
 		"tall"			"50"
@@ -42,8 +42,8 @@
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"0"
-		"enabled"				"0"
+		"visible"				"1"
+		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
@@ -61,7 +61,7 @@
 		"ypos"					"23"
 		"zpos"					"2"
 		"wide"					"120"
-		"tall"					"2"				
+		"tall"					"4"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
