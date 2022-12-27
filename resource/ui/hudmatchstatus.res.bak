@@ -209,16 +209,16 @@
 		
 	"RoundCounterBG"
 	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RoundCounterBG"
-		"xpos"			"398"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"60"
-		"tall"			"24"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"0 0 0 220"
+	  "ControlName"    "EditablePanel"
+            "fieldName"        "RoundCounterBG"
+            "xpos"            "c-18"
+            "ypos"            "-6"
+            "zpos"            "-10"
+            "wide"            "36"
+            "tall"            "20"
+            "visible"        "1"
+            "PaintBackgroundType"    "2"
+            "bgcolor_override"    "27 27 27 200"
 	}
 
 	"BGFrame"
@@ -324,10 +324,10 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"ahud20"
-			"fgcolor"		"white_hari"
+			"font"			"TF2Secondary16"
+			"fgcolor"		"ahudWhite"
 			"xpos"			"23"
-			"ypos"			"11"
+			"ypos"			"6"
 			"zpos"			"3"
 			"wide"			"45"
 			"tall"			"50"
@@ -341,9 +341,9 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"cs-0.5"
-				"ypos"			"-37"
+				"ypos"			"-44"
 				"tall"			"100"
-				"font"			"ahud20"
+				"font"			"TF2Secondary16"
 			}
 		}	
 	}
@@ -354,8 +354,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"2"
-		"wide"			"f0"
-		"tall"			"75"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
 

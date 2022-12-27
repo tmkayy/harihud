@@ -14,12 +14,19 @@
 	HudWeaponAmmo
 	{
 		"fieldName" "HudWeaponAmmo"
-		"visible" "1"
-		"enabled" "1"
-		"xpos"	"c100"	[$WIN32]
-		"ypos"	"c65"	[$WIN32]
-		"wide"	"250"
-		"tall"	"120"
+		"visible" "0"
+		"enabled" "0"
+		
+		"xpos"	"c105"	[$WIN32] //was "r95"
+		//"xpos_minmode"	"c105"	[$WIN32] //was "r85"
+		
+		"ypos"	"c99"	[$WIN32] //was "r55"	[$WIN32]
+		//"ypos_minmode"	"c199"	[$WIN32] //was 	"r36"//, added 30 in steps of 10 once a week
+		
+		//"xpos"	"r131"	[$X360]
+		//"ypos"	"r77"	[$X360]
+		"wide"	"120" //was 94
+		"tall"	"45"
 	}
 	
 	HudObjectiveStatus
@@ -193,12 +200,10 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"76"
-		"xpos_minmode"			"61"
-		"ypos"					"r152"
-		"ypos_minmode"			"r134"
-		"wide"					"116"
-		"tall"  				"180"
+		"xpos"					"310"
+		"ypos"					"400"
+		"wide"					"f0"
+		"tall"  				"480"
 		"visible" 				"1"
 		"enabled" 				"1"
 		"PaintBackgroundType"	"2"
@@ -446,27 +451,30 @@
 		"fieldName" "HudDeathNotice"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	 "r640"	[$WIN32]
-		"ypos"	 "18"	[$WIN32]
-		"wide"	 "628"
-		"tall"	 "468"
+		"xpos"	 "r328" //was r635
+		"ypos"	 "-3"	//was 4 //was 18
+		
+		"wide"	 "328"
+		"tall"	 "168" //was 468
 
 		"MaxDeathNotices" "4"
-		"IconScale"	  "0.35"
-		"LineHeight"	  "16"
-		"LineSpacing"	  "4"
-		"CornerRadius"	  "0"
+		"IconScale"	  "0.15" //was 0.35
+		"LineHeight"	  "12" //was 16
+		"LineSpacing"	  "-1" //was 4
+		"CornerRadius"	  "0" //was 3
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Default"
-		
+		"TextFont"		"TF2Secondary10" //was Default for text and change to TF2Blank8 to hide killfeed names!
+		"font_hidef"	"TF2Secondary10"
 		"TeamBlue"		"HUDBlueTeamSolid"
 		"TeamRed"		"HUDRedTeamSolid"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
-		"BaseBackgroundColor"	"0 0 0 214"		[$WIN32]
-		"LocalBackgroundColor"	"255 255 255 189"	[$WIN32]
+		"BaseBackgroundColor"	"0 0 0 0"	//was 46 43 42 120	[$WIN32]
+		"LocalBackgroundColor"	"245 229 196 160"	[$WIN32]
+		"BaseBackgroundColor"	"32 32 32 160"	//was 255	[$X360]
+		"LocalBackgroundColor"	"0 0 00"	//was 0 0 0 160	[$X360]
 	}
 
 	HudVehicle
@@ -819,10 +827,10 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-150"
-		"ypos"					"215"
-		"wide"					"300"
-		"tall"					"300"
+		"xpos"					"c-100"
+		"ypos"					"r163"
+		"wide"					"200"
+		"tall"					"152"
 		"zpos"					"4"
 		"proportionaltoparent"	"1"
 	}

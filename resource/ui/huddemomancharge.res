@@ -39,7 +39,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Azonix8"
+		"font"					"TF2Secondary12"
 		"fgcolor_override"		"blue_hari"
 	}
 }

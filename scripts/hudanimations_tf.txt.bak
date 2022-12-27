@@ -47,6 +47,11 @@ event LevelInit
 {
 }
 
+event ScopeRemoval
+{
+Animate HudScope Position	"9999 9999" Linear 0.0 0.0
+}
+
 event OpenWeaponSelectionMenu
 {
 	StopEvent CloseWeaponSelectionMenu	0.0
@@ -206,9 +211,8 @@ event KeyHintMessageHide
 //Health Bonus Pulse
 event HudHealthBonusPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
-	Animate HealthBG 						BgColor 	"114 208 252 255" 	Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue 	fgcolor		"blue_hari"			Linear 0.0 0.0 // turn the health number blue instantly
+	Animate	PlayerStatusHealthValueSpec 	fgcolor		"blue_hari"			Linear 0.0 0.0 // turn the health number blue instantly
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -223,7 +227,8 @@ event HudHealthBonusPulseStop
 {
 	StopEvent HudHealthBonusPulse 0.0
 	StopEvent HudHealthBonusPulseLoop 0.0
-	Animate HealthBG 						BgColor 	"0 0 0 0" 	Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue 	fgcolor		"TanLight"			Linear 0.0 0.0 // change back to white when health ok
+	Animate	PlayerStatusHealthValueSpec 	fgcolor		"TanLight"			Linear 0.0 0.0 // turn the health number blue instantly
 }
 
 //===========================================
@@ -231,10 +236,8 @@ event HudHealthBonusPulseStop
 //Health Dying Pulse
 event HudHealthDyingPulse
 {
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
-	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
-	Animate HealthBG 						BgColor 	"255 71 71 255" 	Linear 0.0 0.0
-	
+	Animate	PlayerStatusHealthValue 	fgcolor		"232 114 114 190"			Linear 0.0 0.0 // turn the health number light red instantly
+	Animate	PlayerStatusHealthValueSpec 	fgcolor		"232 114 114 190"			Linear 0.0 0.0 // turn the health number blue instantly
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
 
@@ -248,16 +251,18 @@ event HudHealthDyingPulseStop
 {
 	StopEvent HudHealthDyingPulse 0.0
 	StopEvent HudHealthDyingPulseLoop 0.0
-	Animate HealthBG 						BgColor 	"0 0 0 0" 	Linear 0.0 0.0
+	Animate	PlayerStatusHealthValue 	fgcolor		"TanLight"			Linear 0.0 0.0 // back to white when health ok
+	Animate	PlayerStatusHealthValueSpec 	fgcolor		"TanLight"			Linear 0.0 0.0 // turn the health number blue instantly
 }
 
 //===========================================
 
 event HudLowAmmoPulse
 {
-	Animate	HudWeaponLowAmmoImage		Alpha		"255"		Linear 0.0 0.075
-	Animate	HudWeaponLowAmmoImage		Alpha		"0"			Linear 0.125 0.075
-	
+
+	Animate	AmmoInClip		fgcolor		"232 114 114 180"			Linear 0.0 0.0 // turn the ammo numbers red instantly
+	Animate	AmmoInReserve		fgcolor		"232 114 114 180"			Linear 0.0 0.0
+	Animate	AmmoNoClip		fgcolor		"232 114 114 180"			Linear 0.0 0.0 
 	RunEvent HudLowAmmoPulseLoop	0.25
 }
 
@@ -271,6 +276,9 @@ event HudLowAmmoPulseStop
 {
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
+	Animate	AmmoInClip		fgcolor		"235 226 202 180"		Linear 0.0 0.0 // turn the ammo numbers back to white instantly
+	Animate	AmmoInReserve		fgcolor		"235 226 202 180"			Linear 0.0 0.0 
+	Animate	AmmoNoClip		fgcolor		"235 226 202 180"			Linear 0.0 0.0
 }
 
 //===========================================
@@ -770,7 +778,7 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-	// empty
+	RunEvent ScopeRemoval 0.0
 }
 
 //===========================================

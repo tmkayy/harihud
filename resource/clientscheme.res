@@ -35,6 +35,10 @@ Scheme
 		"red_hypno_hari"		"238 54 54 255"
 		"blue_hypno_hari"		"85 163 238 255"
 		"black_bright_hari"		"27 27 27 255"
+		"shadow_hari"			"46 43 42 200"
+		"sakura_blue_hari"		"178 180 225 255"
+		"sakura_red_hari"		"214 180 214 255"
+		"ahudWhite"				"242 242 242 255"
 		
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -3140,6 +3144,15 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		ahud10
+		{
+			"1"
+			{
+				"name"		"Code-Pro-LC"
+				"tall"		"10"
+				"antialias" "1"
+			}
+		}
 		ahud12
 		{
 			"1"
@@ -3414,6 +3427,228 @@ Scheme
 				"name"		"TF2 Class Icons V2"
 				"tall"		"48"
 				"antialias" "1"
+			}
+		}
+		//optivex font
+		"TF2Secondary8"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"8"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"TF2Secondary10"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"10"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"TF2Secondary12"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"12"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"TF2Secondary14"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"14"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"TF2Secondary16"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"16"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"TF2Secondary18"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"18"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"TF2Secondary20"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"20"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"TF2Secondary22"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"22"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"TF2Secondary24"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"24"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}	
+		"TF2Secondary26"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"26"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Secondary28"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"28"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Secondary30"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"30"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Secondary32"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"32"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Secondary34"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"34"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Secondary36"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"36"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Secondary38"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"38"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		
+		"TF2Secondary40"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"40"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Secondary42"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"42"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Secondary44"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"44"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+		"TF2Secondary46"
+		{
+			"1"
+			{
+				"name"		"Quicksand Bold"
+				"tall"		"46"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" 	"1"
 			}
 		}
 	}
@@ -6257,6 +6492,21 @@ Scheme
 		{
 			"font"	"resource/fonts/tf2_class_icons.ttf"
 			"name"  "TF2 Class Icons V2"
+		}
+		"13" 
+		{
+			"font" "resource/fonts/Quicksand-Bold.ttf"
+			"name" "Quicksand Bold"
+		}
+		"14" 
+		{
+			"font" "resource/fonts/Quicksand-BoldNM.ttf"
+			"name" "Quicksand BoldNM"
+		}
+		"15" 
+		{
+			"font" "resource/fonts/Quicksand-Light.ttf"
+			"name" "Quicksand Light"
 		}
 	}
 }

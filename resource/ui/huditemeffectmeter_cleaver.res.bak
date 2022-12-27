@@ -9,7 +9,7 @@
 		"xpos"			"367"	[$WIN32]
 		"ypos"			"285"	[$WIN32]
 		"wide"			"500"
-		"tall"			"50"
+		"tall"			"90"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -42,8 +42,8 @@
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Cleaver"
 		"textAlignment"			"center"
@@ -58,10 +58,10 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"23"
+		"ypos"					"79"
 		"zpos"					"2"
 		"wide"					"120"
-		"tall"					"4"			
+		"tall"					"2"			
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"
@@ -70,6 +70,6 @@
 		"dulltext"				"0"
 		"brighttext"			"0"
 		"fgcolor_override"		"white_hari"
-		"bgcolor_override"		"black_bg_hari"
+		"bgcolor_override"		"0 0 0 190"
 	}					
 }
