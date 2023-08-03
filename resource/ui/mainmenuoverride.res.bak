@@ -568,7 +568,7 @@
 			"enabled"								"1"
 			"tabPosition"							"0"
 			"use_proportional_insets" 				"1"
-			"font"									"Azonix8"
+			"font"									"TF2Secondary8"
 			"labelText"								"harihud"			
 			"AllCaps"								"1"
 			"textAlignment"							"west"
@@ -578,7 +578,7 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"		
 
-			"urlText"								"https://www.youtube.com/channel/UCN1M_ZLRK0xHIrjA03ByJIw"			
+			"urlText"								"https://www.youtube.com/channel/UCN1M_ZLRK0xHIrjA03ByJIw"	//guy i stole the menu from		
 			
 			"paintbackground"						"0"
 			"paintborder"							"0"
@@ -595,11 +595,26 @@
 		"fieldname"				"BGPanel3"
 		"xpos"					"824"
 		"ypos"					"160"
-		"zpos"					"1"
+		"zpos"					"-100"
 		"wide"					"40"
 		"tall"					"32"
 		"visible"				"1"
 		"bgcolor_override"		"black_bright_hari"
 		"PaintBackgroundType"	"2"	
+	}
+	
+	"CustomBG"
+	{
+		"ControlName"								"ImagePanel"
+		"fieldName"									"CustomBG"
+		"xpos"										"0"
+		"ypos"										"0"
+		"zpos"										"-9999999999999999999999999"
+		"wide"										"f0"
+		"tall"										"480"
+		"visible"									"1"
+		"enabled"									"1"
+		"image"										"replay/thumbnails/menu/menugif"
+		"scaleimage"								"1"
 	}
 }

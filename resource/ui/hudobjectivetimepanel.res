@@ -63,7 +63,7 @@
 		"xpos"			"16"
 		"xpos_hidef"	"0"
 		"xpos_lodef"	"0"
-		"ypos"			"34"
+		"ypos"			"0"
 		"ypos_minmode"	"24"
 		"ypos_hidef"	"41"
 		"ypos_lodef"	"41"
@@ -76,12 +76,12 @@
 		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"#game_WaitingForPlayers"
+		"labelText"		"プレイヤーを待っています"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubTextTiny"
+		"font"			"TF2Secondary14"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 
@@ -140,12 +140,12 @@
 		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"#game_Overtime"
+		"labelText"		"オーバータイム"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
+		"font"			"TF2Secondary14"
 		"font_hidef"	"HudFontSmall"
 		"font_lodef"	"HudFontSmall"
 
@@ -156,7 +156,7 @@
 			"ypos"					"21"
 			"ypos_minmode"			"21"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
+			"font"					"TF2Secondary14"
 			"font_hidef"			"HudFontSmallestBold"
 			"font_lodef"			"HudFontSmallestBold"
 		}
@@ -268,12 +268,12 @@
 		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"#game_Setup"
+		"labelText"		"セットアップ"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
+		"font"			"TF2Secondary14"
 
 		if_match
 		{
@@ -335,7 +335,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"ClockSubText"
+		"font"			"TF2Secondary14"
 
 		if_match
 		{
@@ -344,7 +344,7 @@
 			"ypos"					"21"
 			"ypos_minmode"			"21"
 			"wide"					"p1"
-			"font"					"HudFontSmallestBold"
+			"font"					"TF2Secondary10"
 			"font_hidef"			"HudFontSmallestBold"
 			"font_lodef"			"HudFontSmallestBold"
 		}

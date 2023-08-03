@@ -11,20 +11,6 @@
 		"tall"			"f0"
 		"proportionaltoparent"	"1"
 		"actionsignallevel"	"2"
-		
-		"BGPanel3"
-		{
-		"ControlName"			"EditablePanel"
-		"fieldname"				"BGPanel3"
-		"xpos"					"0"
-		"ypos"					"0"
-		"zpos"					"-10"
-		"wide"					"40"
-		"tall"					"32"
-		"visible"				"1"
-		"bgcolor_override"		"black_bright_hari"
-		"PaintBackgroundType"	"2"	
-		}
 
 		"BelowModelParticlePanel"
 		{
@@ -77,8 +63,8 @@
 
 			if_mini
 			{
-				"xpos"		"cs-0.5-228"
-				"ypos"		"cs-0.5"
+				"xpos"		"-100"
+				"ypos"		"-100"
 				"wide"		"200"
 				"tall"		"200"
 			}
@@ -109,7 +95,6 @@
 				{
 					"sequence"	"idle"
 					"default"	"1"
-				
 				}
 			}
 		
@@ -229,7 +214,7 @@
 			"tall"									"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"Azonix8"
+			"font"									"TF2Secondary8"
 			"fgcolor_override"						"TanLight"
 			"textAlignment"							"west"
 			"labelText"								"%name%"
@@ -253,7 +238,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"font"									"Azonix8"
+			"font"									"TF2Secondary8"
 			"fgcolor_override"						"TanLight"
 			"textAlignment"							"west"
 			"labelText"								"%desc1%"
@@ -267,9 +252,9 @@
 
 			"fonts"
 			{
-				"0"									"Azonix8"
-				"1"									"Azonix8"
-				"2"									"Azonix8"
+				"0"									"TF2Secondary8"
+				"1"									"TF2Secondary8"
+				"2"									"TF2Secondary8"
 			}
 		}
 
@@ -285,7 +270,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"font"									"Azonix8"
+			"font"									"TF2Secondary8"
 			"fgcolor_override"						"TanLight"
 			"textAlignment"							"west"
 			"labelText"								"%desc2%"
@@ -299,9 +284,9 @@
 
 			"fonts"
 			{
-				"0"									"Azonix8"
-				"1"									"Azonix8"
-				"2"									"Azonix8"
+				"0"									"TF2Secondary8"
+				"1"									"TF2Secondary8"
+				"2"									"TF2Secondary8"
 			}
 
 			"colors"

@@ -7,7 +7,7 @@
 		"enabled"		"1"
 //		"x_offset"		"40"
 		"xpos"			"367"	[$WIN32]
-		"ypos"			"300"	[$WIN32]
+		"ypos"			"338"	[$WIN32]
 		"wide"			"500"
 		"tall"			"50"
 		"MeterFG"		"White"
@@ -42,8 +42,8 @@
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"labelText"				"#TF_ENERGYDRINK"
 		"textAlignment"			"center"
@@ -58,10 +58,10 @@
 		"fieldName"				"ItemEffectMeter"
 		"font"					"Default"
 		"xpos"					"0"
-		"ypos"					"23"
+		"ypos"					"30"
 		"zpos"					"2"
 		"wide"					"120"
-		"tall"					"4"				
+		"tall"					"2"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
 		"visible"				"1"

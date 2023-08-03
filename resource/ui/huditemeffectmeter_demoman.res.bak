@@ -5,8 +5,8 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"r162"	[$WIN32]
-		"ypos"			"r92"	[$WIN32]
+		"xpos"			"c-220"	[$WIN32]
+		"ypos"			"c70"	[$WIN32]
 		"wide"			"200"
 		"tall"			"200"
 		"MeterFG"		"White"
@@ -41,8 +41,8 @@
 		"tall"					"100"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Ball"
 		"textAlignment"			"east"
@@ -76,7 +76,7 @@
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
 		"xpos"					"70"
-		"ypos"					"64"
+		"ypos"					"63"
 		"zpos"					"2"
 		"wide"					"40"
 		"tall"					"20"	
@@ -88,7 +88,7 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Azonix16"
-		"fgcolor"				"white_hari"
+		"font"					"TF2Secondary16"
+		"fgcolor"				"TanLight"
 	}
 }

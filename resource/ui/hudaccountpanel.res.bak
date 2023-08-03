@@ -8,7 +8,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"ahud12"
+		"delta_item_font"		"ahud16"
 	}
 	
 	"AccountBG"
@@ -69,7 +69,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"MetalBG"
-		"xpos"			"15"
+		"xpos"			"c-0"
 		"ypos"			"113"
 		"zpos"			"-1"
 		"wide"			"50"

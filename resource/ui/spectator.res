@@ -46,7 +46,7 @@
 		"tabPosition"		"0"
 		"paintbackground"	"1"
 		"Alpha"				"255"
-		"bgcolor_override"	"35 0 52 255"
+		"bgcolor_override"	"black_bright_hari"
 	}
 	"BottomBar"
 	{
@@ -90,7 +90,7 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"center"
-		"font"			"Azonix16"
+		"font"			"TF2Secondary16"
 	}
 	"BuyBackLabel"
 	{
@@ -291,8 +291,8 @@
 		"paintborder"		"1"
 		"border"			"35 0 52 255"
 		"paintbackground"	"1"
-		"bgcolor_override"		"purple_hari"
-		"PaintBackgroundType"	"0"
+		"bgcolor_override"		"black_bright_hari"
+		"PaintBackgroundType"	"2"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"

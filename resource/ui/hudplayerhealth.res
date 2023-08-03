@@ -5,10 +5,15 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-300"		[$WIN32]
-		"ypos"			"c70"	[$WIN32]
+		"xpos"			"c-250"		[$WIN32] //was "0"		[$WIN32]
+		"xpos_minmode"	"c-250"		[$WIN32] //was "-5"		[$WIN32]
+		"ypos"			"c30"	[$WIN32] //was r88 and then c109 but that's too low I kept not noticing my health
+
+		//"xpos"			"32"	[$X360]
+		//"ypos"			"r144"	[$X360]
 		"zpos"			"2"
-		"wide"			"250"
+		"wide"			"200" //was 250
+		"wide_minmode"			"140" //was 250
 		"tall"			"120"
 		"visible"		"1"
 		"enabled"		"1"	
@@ -63,33 +68,36 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"0"
-		"ypos"			"0"	[$WIN32]
-		"zpos"			"5"
-		"wide"			"250"
-		"tall"			"120"
+		"xpos"			"61" //was 76
+		"xpos_minmode"	"61"
+		"ypos"			"73"	//was 53, added 30 in steps of 10, once a week to get used to numbers at the bottom
+		//"ypos"			"55"	[$X360]
+		"zpos"			"8" // was 5
+		"wide"			"80" //was 50
+		"tall"			"36" //was 18
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Azonix42"
-		"fgcolor"		"255 255 255 255"
+		"font"			"TF2Secondary46"
+		"fgcolor"		"TanLight"
 	}
 	"PlayerStatusHealthValueBG"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueBG"
-		"xpos"			"2"
-		"ypos"			"4"	[$WIN32]
-		"zpos"			"4"
-		"wide"			"250"
-		"tall"			"120"
+		"xpos"			"62" //was 77
+		"xpos_minmode"	"62"
+		"ypos"			"74"
+		"zpos"			"7" // was 5
+		"wide"			"80" //was 50
+		"tall"			"36" //was 18
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"Azonix42"
-		"fgcolor"		"0 0 0 255"
+		"font"			"TF2Secondary46"
+		"fgcolor"		"46 43 42 200"
 	}
 	"HealthBG"
 	{

@@ -21,8 +21,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"534"
-		"ypos"			"56"
+		"xpos"			"490"
+		"ypos"			"52"
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"48"
@@ -35,8 +35,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Azonix42"
-		"fgcolor"		"255 255 255 255"
+		"font"			"TF2Secondary46"
+		"fgcolor"		"TanLight"
 	}
 	
 	"ChargeLabelBG"
@@ -65,8 +65,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"534"
-		"ypos"			"56"
+		"xpos"			"471"
+		"ypos"			"52"
 		"zpos"			"2"
 		"wide"			"200"
 		"tall"			"48"
@@ -79,8 +79,8 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Azonix42"
-		"fgcolor"		"255 255 255 255"
+		"font"			"TF2Secondary46"
+		"fgcolor"		"TanLight"
 	}
 	
 	"IndividualChargesLabelBG"
@@ -245,7 +245,7 @@
 	{
 		"ControlName" "EditablePanel"
 		"fieldName" "ResistIconAnchor"
-		"xpos" "0"
+		"xpos" "30"
 		"ypos" "80"
 		"wide" "20"
 		"tall" "20"
