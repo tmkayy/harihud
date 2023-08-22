@@ -2053,7 +2053,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
 
 			if_mvm
 			{
@@ -2100,7 +2099,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
 
 			if_mvm
 			{
@@ -2124,7 +2122,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
 
 			if_mvm
 			{
@@ -2171,7 +2168,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"ahudWhite"
 
 			if_mvm
 			{

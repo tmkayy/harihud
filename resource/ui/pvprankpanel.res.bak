@@ -64,7 +64,7 @@
 			if_mini
 			{
 				"xpos"		"-100"
-				"ypos"		"-100"
+				"ypos"		"20"
 				"wide"		"200"
 				"tall"		"200"
 			}
@@ -214,7 +214,7 @@
 			"tall"									"0"
 			"visible"								"1"
 			"enabled"								"1"
-			"font"									"TF2Secondary8"
+			"font"									"Azonix8"
 			"fgcolor_override"						"TanLight"
 			"textAlignment"							"west"
 			"labelText"								"%name%"
@@ -238,7 +238,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"font"									"TF2Secondary8"
+			"font"									"Azonix8"
 			"fgcolor_override"						"TanLight"
 			"textAlignment"							"west"
 			"labelText"								"%desc1%"
@@ -252,9 +252,9 @@
 
 			"fonts"
 			{
-				"0"									"TF2Secondary8"
-				"1"									"TF2Secondary8"
-				"2"									"TF2Secondary8"
+				"0"									"Azonix8"
+				"1"									"Azonix8"
+				"2"									"Azonix8"
 			}
 		}
 
@@ -270,7 +270,7 @@
 			"visible"								"1"
 			"enabled"								"1"
 			"AllCaps"								"1"
-			"font"									"TF2Secondary8"
+			"font"									"Azonix8"
 			"fgcolor_override"						"TanLight"
 			"textAlignment"							"west"
 			"labelText"								"%desc2%"
@@ -284,9 +284,9 @@
 
 			"fonts"
 			{
-				"0"									"TF2Secondary8"
-				"1"									"TF2Secondary8"
-				"2"									"TF2Secondary8"
+				"0"									"Azonix8"
+				"1"									"Azonix8"
+				"2"									"Azonix8"
 			}
 
 			"colors"

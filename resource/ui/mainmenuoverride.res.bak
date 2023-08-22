@@ -568,7 +568,7 @@
 			"enabled"								"1"
 			"tabPosition"							"0"
 			"use_proportional_insets" 				"1"
-			"font"									"TF2Secondary8"
+			"font"									"Azonix8"
 			"labelText"								"harihud"			
 			"AllCaps"								"1"
 			"textAlignment"							"west"
@@ -578,7 +578,7 @@
 			"sound_depressed"						"UI/buttonclick.wav"
 			"sound_released"						"UI/buttonclickrelease.wav"		
 
-			"urlText"								"https://www.youtube.com/channel/UCN1M_ZLRK0xHIrjA03ByJIw"	//guy i stole the menu from		
+			"urlText"								"https://www.youtube.com/channel/UCN1M_ZLRK0xHIrjA03ByJIw"			
 			
 			"paintbackground"						"0"
 			"paintborder"							"0"
@@ -609,7 +609,7 @@
 		"fieldName"									"CustomBG"
 		"xpos"										"0"
 		"ypos"										"0"
-		"zpos"										"-9999999999999999999999999"
+		"zpos"										"0"
 		"wide"										"f0"
 		"tall"										"480"
 		"visible"									"1"

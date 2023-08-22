@@ -91,7 +91,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 //		"x_offset"		"40"
-		"xpos"			"c-60"	[$WIN32]
+		"xpos"			"357"	[$WIN32]
 		"ypos"			"330"	[$WIN32]
 		"wide"			"500"
 		"tall"			"50"
@@ -105,7 +105,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 //		"x_offset"		"40"
-		"xpos"			"c-60"	[$WIN32]
+		"xpos"			"357"	[$WIN32]
 		"ypos"			"330"	[$WIN32]
 		"wide"			"500"
 		"tall"			"50"
@@ -188,7 +188,7 @@
 	CHudAccountPanel
 	{
 		"fieldName"				"CHudAccountPanel"
-		"xpos"					"c-35"	[$WIN32]
+		"xpos"					"385"	[$WIN32]
 		"ypos"					"240"	[$WIN32]
 		"wide"					"116"
 		"tall"  				"180"
@@ -466,16 +466,15 @@
 		
 		"TextFont"		"TF2Secondary10" //was Default for text and change to TF2Blank8 to hide killfeed names!
 		"font_hidef"	"TF2Secondary10"
-		"TeamBlue"		"sakura_blue_hari"
-		"TeamRed"		"sakura_red_hari"
+		"TeamBlue"		"HUDBlueTeamSolid"
+		"TeamRed"		"HUDRedTeamSolid"
 		"IconColor"		"HudWhite"
 		"LocalPlayerColor"	"HUDBlack"
 
 		"BaseBackgroundColor"	"0 0 0 0"	//was 46 43 42 120	[$WIN32]
-		"LocalBackgroundColor"	"245 229 196 255"	[$WIN32] //245 229 196 160
+		"LocalBackgroundColor"	"245 229 196 160"	[$WIN32]
 		"BaseBackgroundColor"	"32 32 32 160"	//was 255	[$X360]
 		"LocalBackgroundColor"	"0 0 00"	//was 0 0 0 160	[$X360]
-		
 	}
 
 	HudVehicle
@@ -1360,13 +1359,16 @@
 
 	"HudMenuTauntSelection"
 	{
-		"xpos"			"0"
-		"ypos"			"0"
-		//"ypos_hidef"	"0"
-		//"ypos_lodef"	"0"
-		"wide"			"f0"
-		"tall"			"f0"
-		
+		"fieldName" 	"HudMenuTauntSelection"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-235"
+		"ypos"			"c-52"
+		"ypos_hidef"	"c-42"
+		"ypos_lodef"	"c-42"
+		"wide"			"470"
+		"tall"			"200"
+		"PaintBackgroundType"	"0"
 	}
 
 	"ItemAttributeTracker"

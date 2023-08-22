@@ -91,15 +91,15 @@
 		
 		"if_team_red"
 		{
-			"fillcolor"								"sakura_red_hari"
+			"fillcolor"								"red_hypno_hari"
 		}
 		"if_multiple_trains_red"
 		{
-			"fillcolor"								"sakura_red_hari"
+			"fillcolor"								"red_hypno_hari"
 		}
 		"if_multiple_trains_blue"
 		{
-			"fillcolor"								"sakura_blue_hari"
+			"fillcolor"								"blue_hypno_hari"
 		}
 	}
 	
@@ -151,14 +151,14 @@
 			"enabled"								"1"
 			"tabPosition"							"0"
 			"labelText"								""
-			"fillcolor"								"sakura_blue_hari"
+			"fillcolor"								"blue_hari"
 			"scaleImage"							"1"
 			"proportionaltoparent"					"1"
 			
 			"if_multiple_trains_red"
 			{
 				
-				"fillcolor"							"sakura_red_hari"
+				"fillcolor"							"red_hari"
 			}
 		}
 		

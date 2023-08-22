@@ -5,7 +5,7 @@
 		"ControlName"	"ContinuousProgressBar"
 		"fieldName"		"ChargeMeter"
 		"font"			"Default"
-		"xpos"			"0"
+		"xpos"			"10"
 		"ypos"			"0"
 		"zpos"			"2"
 		"wide"			"120"
@@ -39,7 +39,7 @@
 		"textAlignment"			"center"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"TF2Secondary12"
+		"font"					"TF2Secondary14"
 		"fgcolor_override"		"blue_hari"
 	}
 }

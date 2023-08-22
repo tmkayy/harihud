@@ -21,7 +21,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabel"
-		"xpos"			"c45"
+		"xpos"			"490"
 		"ypos"			"52"
 		"zpos"			"2"
 		"wide"			"200"
@@ -65,7 +65,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"IndividualChargesLabel"
-		"xpos"			"c45"
+		"xpos"			"472"
 		"ypos"			"52"
 		"zpos"			"2"
 		"wide"			"200"
@@ -144,7 +144,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override" "255 255 255 255"
-		"bgcolor_override" "black_bg_hari"
+		"bgcolor_override" "35 0 52 199"
 	}
 
 	"ChargeMeter2"
@@ -165,7 +165,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override" "255 255 255 255"
-		"bgcolor_override" "black_bg_hari"
+		"bgcolor_override" "35 0 52 199"
 	}
 
 	"ChargeMeter3"
@@ -186,7 +186,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override" "255 255 255 255"
-		"bgcolor_override" "black_bg_hari"
+		"bgcolor_override" "35 0 52 199"
 	}
 
 	"ChargeMeter4"
@@ -207,7 +207,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"fgcolor_override" "255 255 255 255"
-		"bgcolor_override" "black_bg_hari"
+		"bgcolor_override" "35 0 52 199"
 	}
 	
 	"HealthClusterIcon"
@@ -245,8 +245,8 @@
 	{
 		"ControlName" "EditablePanel"
 		"fieldName" "ResistIconAnchor"
-		"xpos" "c-9"
-		"ypos" "65"
+		"xpos" "30"
+		"ypos" "80"
 		"wide" "20"
 		"tall" "20"
 		"visible" "1"

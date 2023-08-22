@@ -211,10 +211,10 @@
 	{
 	  "ControlName"    "EditablePanel"
             "fieldName"        "RoundCounterBG"
-            "xpos"            "c-18"
-            "ypos"            "-6"
+            "xpos"            "c-22"
+            "ypos"            "-2"
             "zpos"            "-10"
-            "wide"            "36"
+            "wide"            "44"
             "tall"            "20"
             "visible"        "1"
             "PaintBackgroundType"    "2"
@@ -324,10 +324,10 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TimePanelValue"
-			"font"			"TF2Secondary16"
-			"fgcolor"		"TanLight"
+			"font"			"ahud20"
+			"fgcolor"		"white_hari"
 			"xpos"			"23"
-			"ypos"			"6"
+			"ypos"			"11"
 			"zpos"			"3"
 			"wide"			"45"
 			"tall"			"50"
@@ -341,9 +341,9 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"cs-0.5"
-				"ypos"			"-44"
+				"ypos"			"-37"
 				"tall"			"100"
-				"font"			"TF2Secondary16"
+				"font"			"ahud20"
 			}
 		}	
 	}
